@@ -2,7 +2,8 @@
 # platform :ios, '8.0'
 inhibit_all_warnings!
 
-source 'https://github.com/danylokostyshyn/private-podspecs.git'
+# Updated the source to my forked one to fix the http 403 error but still  uses the link from original author (danylokos/popcorntime-ios & danylokos/private-podspecs).
+source 'https://github.com/bnvnclq/private-podspecs.git'
 source 'https://github.com/CocoaPods/Specs'
 
 target 'PopcornTime' do
